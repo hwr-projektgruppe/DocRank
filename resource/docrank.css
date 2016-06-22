@@ -1,0 +1,170 @@
+
+body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+        Times, serif;
+    color: black;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 250%;
+    text-align: left;
+    padding:20px;
+}
+
+h2 {
+    color: #000000;
+    font-family: Arial;
+    font-size: 150%;
+    text-align: center;
+    padding:0px;
+    margin:0px;
+}
+
+ul {
+    background-color: #FFFFFF;
+}
+
+/*Banner*/
+ul.banner_background {
+    background:#D72727;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: absolute;
+    top: 0em;
+    left: 0;
+    right: 0;
+    width: 50em;
+    height: 8em
+}
+
+ul.banner{
+    background:#D72727;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: absolute;
+    top: 2em;
+    left: 0;
+    right: 0;
+    width: 50em;
+    height: 8em
+}
+
+ul.bannerl {
+    background:#D72727;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: absolute;
+}
+
+ul.bannerr {
+    background:#D72727;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: right;
+}
+
+/*Navigation*/
+ul.navigation_background {
+    background:#F4F4F4;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: absolute;
+    top: 8em;
+    left: 0;
+    right: 0;
+    width: 50em;
+    height: 2em
+}
+
+ul.navigation {
+    background:#F4F4F4;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: absolute;
+    top: 9em;
+    left: 0;
+    right: 0;
+    width: 50em;
+    height: 2em
+}
+u1.navigation select {
+    background:#F4F4F4
+}
+ul.navigation p {
+    background:#F4F4F4
+}
+
+/*Main-part with chart*/
+div.hauptteil {
+    background:#FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: absolute;
+    top: 15em;
+    left: 0;
+    right: 0;
+    width: 50em;
+    //	height: 40em
+}
+
+/*Footer*/
+div.footer_background {
+
+    clear:left;
+    background:#F4F4F4;
+    padding: 10px;
+    margin-top:1em;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    bottom: 0em;
+    left: 0;
+    right: 0;
+    width: 50em;
+    height: 3em
+}
+div.footer {
+    clear:left;
+    background:#F4F4F4;
+    padding: 10px;
+    margin-top:1em;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    bottom: 0em;
+    left: 0;
+    right: 0;
+    width: 50em;
+    height: 2em;
+}
+
+.link{
+    color: black !important;
+}
+
+.jqplot-axis{
+    z-index: 1000;
+}
+.jqplot-yaxis{
+    z-index: 1000;
+}
+/*#chart{
+    width: 800px;
+    height: 800px;
+}        */
